@@ -1,7 +1,33 @@
 aid: convenientpower
-name: convenientpower
-description: convenientpower is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/convenientpower.png
+name: ConvenientPower
+description: >-
+  ConvenientPower (Chengdu ConvenientPower Semiconductor, 成都市易冲半导体有限公司) is an
+  analog and mixed-signal integrated-circuit design company founded in 2016 and
+  headquartered in Chengdu, Sichuan, China, with offices in Beijing, Shanghai,
+  Xi'an, Shenzhen, Hong Kong, Taiwan, and Silicon Valley. The company designs
+  high-performance power-management ICs spanning the full link from 220V mains to
+  battery: wireless-charging transmitters and receivers (Qi, up to 100W), USB
+  Power Delivery and UFCS protocol controllers, AC/DC flyback and synchronous
+  rectifier controllers, GaN-integrated solutions, battery-charging management,
+  LDOs and DC/DC converters, and automotive-grade power ICs (wireless charging,
+  LED lighting, eFuse protection, switches). Its parts ship into consumer
+  electronics, accessories, and automotive markets, with more than 330 million
+  units shipped and 160+ patents; automotive ICs are AEC-Q100 qualified. As a
+  hardware semiconductor vendor, ConvenientPower exposes developer resources as
+  chip SDK toolkits, reference designs, and design software rather than a public
+  web API. It was surfaced as a portfolio company of Qiming Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/convenientpower/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductor
+- Wireless Charging
+- Power Management
+- USB Power Delivery
+- Battery Management
+- Automotive
+- Integrated Circuits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,16 @@ maintainers:
 common:
 - type: Website
   url: https://convenientpower.com
+- type: DeveloperPortal
+  url: https://convenientpower.com/front/sdk.html
+- type: Support
+  url: https://convenientpower.com/front/consultation.html
+- type: HelpCenter
+  url: https://convenientpower.com/front/faq.html
+- type: DomainSecurity
+  url: security/convenientpower-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
